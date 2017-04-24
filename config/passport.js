@@ -37,6 +37,6 @@ passport.use('local.sign-up', new localStrategy({
             }
             return done(null, newUser);
         });
-    })
-    })
+    }}));
+
 //braces is end of function (req, email, pword, done and bracket is end of passport new localStrategy
