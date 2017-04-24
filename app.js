@@ -14,6 +14,7 @@ var flash = require('connect-flash');
 //CONNECT TO DB
 mongoose.Promise = global.Promise;
 mongoose.connect('localhost:27017/shopping');
+require('./config/passport');
 
 
 var index = require('./routes/index');
